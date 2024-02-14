@@ -3,6 +3,12 @@ import Media from './Media'
 
 const Actors: CollectionConfig = {
     slug: 'actors',
+    access: {
+        read: () => true,
+        update: () => true,
+        create: () => true,
+        delete: () => true,
+      },
     fields: [
         {
             name: 'name',
@@ -167,3 +173,4 @@ const Actors: CollectionConfig = {
     ]
 }
 export default Actors
+
