@@ -2,6 +2,12 @@ import { CollectionConfig } from "payload/types";
 
 const Filmography : CollectionConfig = {
     slug: 'filmography',
+    access: {
+        read: () => true,
+        update: () => true,
+        create: () => true,
+        delete: () => true,
+      },
     labels: {
         singular: 'Filmography',
         plural: 'Filmography'
