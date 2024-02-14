@@ -11,6 +11,7 @@ import Media from './collections/Media'
 import Pages from './collections/Pages'
 
 export default buildConfig({
+  serverURL: process.env.SERVER_URL,
   admin: {
     user: Users.slug,
     bundler: webpackBundler(),
