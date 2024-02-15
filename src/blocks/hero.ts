@@ -10,14 +10,12 @@ const Hero : Block = {
         {
             name: 'title',
             label: 'Title',
-            type: 'text',
-            required: true
+            type: 'text'
         },
         {
             name:'subtitle',
             label: 'Subtitle',
-            type: 'textarea',
-            required: true
+            type: 'textarea'
         },
         {
             name: 'image',

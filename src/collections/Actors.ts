@@ -13,14 +13,12 @@ const Actors: CollectionConfig = {
         {
             name: 'name',
             label: 'Name',
-            type: 'text',
-            required: true
+            type: 'text'
         },
         {
             name: 'surname',
             label: 'Surname',
-            type: 'text',
-            required: true
+            type: 'text'
         },
         {
             name: 'category',
@@ -51,14 +49,12 @@ const Actors: CollectionConfig = {
                 {
                     name: 'age',
                     label: 'Age',
-                    type: 'number',
-                    required: true
+                    type: 'number'
                 },
                 {
                     name: 'height',
                     label: 'Height (cm)',
-                    type: 'number',
-                    required: true
+                    type: 'number'
                 },
                 {
                     name: 'eyesColor',

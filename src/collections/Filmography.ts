@@ -16,20 +16,17 @@ const Filmography : CollectionConfig = {
         {
             name:'year',
             label: 'Year of Production',
-            type: 'text',
-            required: true
+            type: 'text'
         },
         {
             name: 'work',
             label: 'Movie or Serie',
-            type: 'text',
-            required: true
+            type: 'text'
         },
         {
             name: 'role',
             label: 'Role',
-            type: 'text',
-            required: true
+            type: 'text'
         }
     ]
 }

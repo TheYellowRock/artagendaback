@@ -14,14 +14,12 @@ const Pages : CollectionConfig = {
         {
             name:'title',
             label: 'Title',
-            type: 'text',
-            required: true
+            type: 'text'
         },
         {
             name: 'slug',
             label: 'Slug',
-            type: 'text',
-            required: true
+            type: 'text'
         },
         {
             name: 'layout',

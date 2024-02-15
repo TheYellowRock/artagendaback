@@ -7,15 +7,17 @@ const Media : CollectionConfig = {
         plural: 'Media'
     },
     access: {
-        read: () => true
+        read: () => true,
+        update: () => true,
+        create: () => true,
+        delete: () => true,
     },
     upload:true,
     fields: [
         {
             name:'alt',
             label: 'Alt',
-            type:'text',
-            required: true
+            type:'text'
         }
     ]
 }
