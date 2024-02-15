@@ -19,6 +19,11 @@ export default buildConfig({
   },
   editor: slateEditor({}),
   collections: [Users, Actors, Media, Pages, Filmography ],
+  csrf: [
+    // whitelist of domains to allow cookie auth from
+    'https://artagendaback-production.up.railway.app/',
+  ],
+
   typescript: {
     outputFile: path.resolve(__dirname, 'payload-types.ts'),
   },
