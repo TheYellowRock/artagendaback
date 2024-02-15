@@ -3,6 +3,12 @@ import { CollectionConfig } from 'payload/types'
 const Users: CollectionConfig = {
   slug: 'users',
   auth: true,
+  access: {
+    read: () => true,
+    update: () => true,
+    create: () => true,
+    delete: () => true,
+},
   admin: {
     useAsTitle: 'email',
   },
