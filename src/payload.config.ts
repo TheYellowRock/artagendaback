@@ -37,9 +37,16 @@ export default buildConfig({
   editor: lexicalEditor({}),
   collections: [Users, Actors, Media, Pages, Filmography ],
   globals: [Header, Footer, Contact],
+  cors: [
+    'https://artagendaback-production.up.railway.app/',
+    'https://art-agenda-bucket.eu-central-1.linodeobjects.com',
+    'https://artagenda-kjvo7aqv4-theyellowrock.vercel.app/'
+  ],
   csrf: [
     // whitelist of domains to allow cookie auth from
     'https://artagendaback-production.up.railway.app/',
+    'https://art-agenda-bucket.eu-central-1.linodeobjects.com',
+    'https://artagenda-kjvo7aqv4-theyellowrock.vercel.app/'
   ],
 
   typescript: {
