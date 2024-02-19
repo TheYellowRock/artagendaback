@@ -1,5 +1,8 @@
 import { CollectionConfig } from "payload/types";
 import Hero from "../blocks/hero";
+import SimpleRichText from "../blocks/simpleRichText";
+import ActorsGrid from "../blocks/actorsGrid";
+import ContactBlock from "../blocks/contactBlock";
 
 const Pages : CollectionConfig = {
     slug: 'pages',
@@ -26,7 +29,10 @@ const Pages : CollectionConfig = {
             label: 'Layout',
             type: 'blocks',
             blocks: [
-                Hero
+                Hero,
+                SimpleRichText,
+                ActorsGrid,
+                ContactBlock
             ]
         }
     ]
